@@ -1,0 +1,203 @@
+﻿* {
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+a { 
+    color: white;
+}
+.mainContainer {
+    display:flex;
+    flex-direction: column;
+}
+.mainMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menu {
+    background-color: #1b242f;
+}
+.elements {
+    color: white !important;
+    display: flex;
+    flex-direction: row;
+    margin-left: 370px;
+}
+.elements > div {
+    margin: 15px;
+}
+.elements > div > a:hover  {
+    color: #e31b6d !important;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(4, 194, 201);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.aboutContainer {
+    display: flex;
+    flex: 1;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+}
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.titleContainer > h1 {
+    color: #444649;
+    font-size: 30pt;
+}
+.skillsContainer { 
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+.skillsContainer > div {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillsContainer > div > img {
+    width: 75px;
+    margin: 15px;
+}
+.skillsContainer > div > .explainContainer {
+    display: flex;
+    flex-direction: column;
+}
+.explainContainer > h3 {
+    color: #444649;
+    font-size: 20pt;
+    align-self: center;
+}
+.explainContainer > p {
+    color: #616161;
+    align-self: center;
+    font-size: 10pt;
+    margin-top: 10px;
+}
+.abilitiesContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+    margin-top: 25px;
+    align-items: center;
+}
+.leftContainer > .profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.leftContainer > .profileInfo > p {
+    color: #616161;
+    font-size: 12pt;
+    margin: 10px;
+}
+.leftContainer > .profileInfo > h2 {
+    color: rgb(97, 97, 97);
+}
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    margin-top: 25px;
+}
+.rightContainer > div > p {
+    background-color: #05C2C9;
+    display: inline-block;
+    width: 110px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+}
+.data {
+    display: flex;
+    margin: 10px;
+}
+.progressBar {
+    background-color: #eee;
+    width: 400px;
+    height: 30px;
+}
+.bar {
+    height: 30px;
+    background: #01A1A7;
+}
+.point {
+    font-size: 12pt;
+    color: #616161;
+    margin: 5px;
+}
+.projectsContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+.projects {
+    display: flex;
+    margin: 20px;
+    width: 1170px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-bottom: 50px;
+}
+.project {
+    display: flex;
+    position: relative;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.project:hover .projectImage {
+    opacity: 0.1;
+}
+.project:hover .middle {
+    opacity: 1;
+}
+.myText {
+    color: #1b242f;
+    font-size: 18pt;
+    padding: 16px 32px;
+}
+.showDetails {
+    padding: 10px 15px 10px 15px;
+    background-color: transparent;
+    border: 2px solid #e31b6d;
+    box-sizing: border-box;
+    font-size: 11pt;
+}
+.showDetails:hover {
+    background-color: #e31b6d;
+    color: white;
+    transition: all 0.5s;
+}
