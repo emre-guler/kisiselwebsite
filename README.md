@@ -1,8 +1,38 @@
-# kisiselwebsite
-Ödevim için yaptığım kişisel 3 sayfalık web sitesi. Tasarım bana ait değildir.
+# Personal Website
 
-![index](https://user-images.githubusercontent.com/39224401/80285222-0d51d900-872c-11ea-8f3b-2ce0723538fa.png)
-![aboutme1](https://user-images.githubusercontent.com/39224401/80285249-3ffbd180-872c-11ea-93aa-5fdb0238db92.png)
-![contact](https://user-images.githubusercontent.com/39224401/80285273-57d35580-872c-11ea-81f4-e48473ee746e.png)
-![aboutme 2](https://user-images.githubusercontent.com/39224401/80285285-6faad980-872c-11ea-9941-71358bd5ecb1.png)
-![aboutme3](https://user-images.githubusercontent.com/39224401/80285304-8e10d500-872c-11ea-9ef9-e45ed995f2fa.png)
+A clean and modern personal website built with HTML and CSS, featuring multiple pages for showcasing personal information, skills, and contact details.
+
+## Project Structure
+
+- `index.html` - Home page of the website
+- `hakkimda.html` - About me page
+- `iletisim.html` - Contact page
+- `assets/` - Directory containing project assets (images, styles, etc.)
+
+## Features
+
+- Responsive design
+- Multiple pages for different sections
+- Clean and modern user interface
+- Easy to navigate structure
+
+## Getting Started
+
+1. Clone this repository
+2. Open any of the HTML files in a modern web browser
+3. No build process or dependencies required
+
+## Development
+
+To make changes to the website:
+1. Edit the HTML files directly using any text editor
+2. Modify styles in the CSS files located in the assets directory
+3. Add or update images and other assets in the assets directory
+
+## Browser Support
+
+This website is compatible with all modern web browsers including:
+- Chrome
+- Firefox
+- Safari
+- Edge
